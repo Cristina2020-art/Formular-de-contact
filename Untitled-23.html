@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <title>Formular de contact</title>
+        <h1>Formular de contact:</h1>
+        <form action="https://coddy.tech/newcourse" method="POST"id="courseForm">
+        <label for="fname">Numele tau: </label>
+          <input type="text" id="firstName" name="firstName"placeholder="Introdu numele tau "><br><br>
+          <label for="lname">Prenumele tau: </label>
+          <input type="text" id="lastName" name="lastName"placeholder="Introdu prenumele tau"><br><br>
+          <label for="email">Emailul tau: </label>
+          <input type="email" id="email" name="email" placeholder="Introdu emailul tau"><br><br>
+          <label for="password">Parola ta: </label>
+          <input type="password" id="password" name="password" placeholder="Confirma parola ta"><br><br>
+          <label for="age">Varsta ta: </label>
+          <input type="number" id="age" min="1" max="99"placeholder="Introdu varsta ta"><br><br>
+          <label for="date">Data ta de nastere: </label>
+          <input type="date" id="start"placeholder="Introdu data ta de nastere"><br><br>
+          <label for="range">Volumul: </label>
+          <input type="range" id="volume" name="volume" min="0" max="11"placeholder="Introdu volumul"><br><br>
+          <label for="gender">Genul tau: </label><br><br>
+          <input type="checkbox" id="gender" name="gender" value="Barbat"> Barbat<br><br>
+          <input type="checkbox" id="gender" name="gender" value="Femeie"> Femeie<br><br>
+          <h2>Ce model de masina conduci?</h2>
+          <input type="radio" id="tesla" name="model" value="Tesla"> Tesla<br><br>
+          <label for="audi">Tesla</label>
+          <input type="radio" id="audi" name="model" value="Audi"> Audi<br><br>
+          <label for="audi">Audi</label>
+          <input type="radio" id="bmw" name="model" value="BMW"> BMW<br><br>
+          <label for="bmw">BMW</label>
+          <label for="donation">Donatii facute: </label><br><br>
+          <input type="checkbox" value="donation"> Donezi bani?<br><br>
+          <input type="radio" id="radio1" name="price" value="1"> $10.00<br><br>
+          <input type="radio" id="radio2" name="price" value="5"> $50.00<br><br>
+          <input type="radio" id="radio3" name="price" value="10"> $100.00<br><br>
+          <textarea id="msg" name="message" rows="4" cols="50"></textarea><br><br>
+          <input type="submit" value="Submit Form"><br><br>
+          <input type="submit" value="Submit" disabled><br><br>
+          <input type="text" placeholder="introdu numele tau de utilizator" name="username" ><br><br>
+          <input type="submit" value="Submit Form" id="submit"><br><br>
+        </form>
+    </body>
+</html>
